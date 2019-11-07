@@ -1,3 +1,5 @@
+import { ADD_FEATURE } from './actions';
+
 export const initialState = {
   additionalPrice: 0,
   car: {
@@ -17,6 +19,9 @@ export const initialState = {
 
 export function reducer(state = initialState, action) {
   switch(action.type){
+    case ADD_FEATURE: {
+
+    }
     default: 
       return state
   }
