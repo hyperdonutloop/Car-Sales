@@ -15,9 +15,21 @@ export const initialState = {
   ]
 };
 
-export function reducer(state, action) {
+export function reducer(state = initialState, action) {
   switch(action.type){
     default: 
       return state
   }
 }
+
+//line 18- setting a default value for the parameter
+//every other time reducer runs it is going to be a different - an updated state
+
+/* 
+1. Set up reducer and initial state
+2. Set up Store and Provider -> see index.js line 12
+3. Wrapped App in PROVIDER and gave provider a prop of STORE
+
+
+
+*/

@@ -17,3 +17,6 @@ ReactDOM.render(
   <App />
 </Provider>,
  rootElement);
+
+
+ //line 12 - createStore is a function, and we are calling that function. That function takes an argument which is the reducer. THIS IS CREATING THE STORE.
