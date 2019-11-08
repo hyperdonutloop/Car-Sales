@@ -41,6 +41,6 @@ const mapStateToProps = (state) => {
   }
 }
 
-export default connect(mapStateToProps, {addFeature}, {removeFeature}) (App);
+export default connect(mapStateToProps, {}) (App);
 
 //line 33-37 we are connecting our information to our reducer, mapping STATE to the PROPS above
